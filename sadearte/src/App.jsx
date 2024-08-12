@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Cadastro from './assets/Components/Cadastro/Cadastro'
+import Cadastro from './assets/Components/Cadastro'
 import './App.css'
 
 function App() {
