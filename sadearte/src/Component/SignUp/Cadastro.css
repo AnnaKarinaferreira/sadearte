@@ -1,9 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html,
+body {
+    background-color: #962F2F;
+    min-height: 100%
+}
+
 .Conteiner{
     margin-top: 3vw;
     background-color: white;
     width: 30vw;
     height: 30vw;
+    border-radius: 3vh;
     margin-left: 35vw;
+    padding: 5vh;
+    text-align: center;
+}
+
+.titulo{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 
 .input1{

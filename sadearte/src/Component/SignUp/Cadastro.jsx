@@ -21,6 +21,7 @@ const Cadastro = () => {
   return (
     <div className='Conteiner'>
       <form onSubmit={handleSubmit}>
+        <h1 className='titulo'>Seja bem-vindo ao Brighid!</h1>
         <div className='input1'>Nome de usuário<br/><input type="username" placeholder='Nome de usuário'/></div>
         <div className='input2'>Seu email <br /><input type="email" placeholder='Email'/></div>
         <div className='input3'>Seu Número <br /><input className='input4' type="number" placeholder='(DDD)'/> <input className='input5' type="number" placeholder='+xx xxxxx-xxxx' /></div>
