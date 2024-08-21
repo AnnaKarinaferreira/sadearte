@@ -1,8 +1,8 @@
 import React from 'react'
 import { useState } from 'react';
 import "./Cadastro.css";
-import "./Login.jsx"
-import { createBrowserRouter,RouterProvider} from 'react-router-dom';
+import "../SignIn/Login.jsx"
+import { Link } from 'react-router-dom';
 
 
 
@@ -31,13 +31,12 @@ const Cadastro = () => {
                 <input type="checkbox"/>
                 Lembre de mim
             </label> <br />
-            <link rel="stylesheet" href="./Cadastro.jsx" />
         </div>
 
         <button className='Button1'>Continuar</button>
 
         <div className="signup-link">
-            <p>Já possuí uma conta? <a href="./Login.jsx">Login</a></p>
+            <p>Já possuí uma conta? <Link to='/Login'>Login</Link> </p>
         </div>
       </form>
     </div>

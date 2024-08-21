@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import "./Login.css";
-import "./Cadastro.jsx"
+import Cadastro from '../SignUp/Cadastro';
 import { createBrowserRouter,RouterProvider} from 'react-router-dom';
 
 

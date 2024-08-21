@@ -1,18 +1,20 @@
+import * as React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
-import Cadastro from './Components/Cadastro';
+import Cadastro from './Component/SignUp/Cadastro';
+import Login from './Component/SignIn/Login'
 import './App.css';
-import { useNavigate } from 'react-router-dom';
 
 function App() {
-const [count, setCount] = useState(0)
-//const navigate = useNavigate();  
+const [count, setCount] = useState(0) 
 return (
   <>
-   <div className='geral'> 
-      <p className='Title1'>Seja bem-vindo ao Brighid!</p>
-      <p className='Title2'>Cadastre-se para se juntar à nossa comunidade de artistas!</p>
-      <Cadastro></Cadastro>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/Cadastro" element={<Cadastro />} />
+        <Route path="/Login" element={<Login />} />
+      </Routes>
+      </Router>
   </>
 )
 }
