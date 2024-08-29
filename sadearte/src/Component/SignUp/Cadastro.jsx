@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import "./Cadastro.css";
-import "../SignIn/Login.jsx"
+import Login from "../SignIn/Login.jsx"
 import { Link } from 'react-router-dom';
 
 

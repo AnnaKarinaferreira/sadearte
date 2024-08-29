@@ -1,14 +1,30 @@
-import React from 'react'
+import React from 'react';
 import { useState } from 'react';
 import "./Login.css";
 import Cadastro from '../SignUp/Cadastro';
 import { createBrowserRouter,RouterProvider} from 'react-router-dom';
 
 
-function Login() {
+
+const Login = () => {
+const [username, setUsername] = useState("");
+const [password, setPassword] = useState("");
+
+const handleSubmit=(event) => {
+  event.preventDefault();
+
+  console.log("Envio");
+};
+
   return (
-    <div>
-      <h1>Login</h1>
+    <div className='Conteiner'>
+      <form onSubmit={handleSubmit}>
+      <h1 className='titulo'>Bom te ver de volta!</h1>
+      <div className='input1'>Seu email <br /><input type="email" placeholder='Email'/></div>
+      <div className='input2'>Senha <br /><input type="string" placeholder='Digite sua senha'/></div>
+      <div className='forget-link'><p>Esqueceu sua senha?</p><Link to='/Login'>Login</Link></div>
+      <button className='Button1'>Continuar</button>
+      </form>
     </div>
   )
 }

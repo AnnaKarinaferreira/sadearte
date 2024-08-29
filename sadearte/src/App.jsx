@@ -11,7 +11,7 @@ return (
   <>
     <Router>
       <Routes>
-        <Route path="/Cadastro" element={<Cadastro />} />
+        <Route path="/" element={<Cadastro />} />
         <Route path="/Login" element={<Login />} />
       </Routes>
       </Router>
