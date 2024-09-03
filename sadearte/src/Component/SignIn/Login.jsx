@@ -22,7 +22,7 @@ const handleSubmit=(event) => {
       <h1 className='titulo'>Bom te ver de volta!</h1>
       <div className='input1'>Seu email <br /><input type="email" placeholder='Email'/></div>
       <div className='input2'>Senha <br /><input type="string" placeholder='Digite sua senha'/></div>
-      <div className='forget-link'><p>Esqueceu sua senha?</p><Link to='/Login'>Login</Link></div>
+      <div className='forget-link'><a href="dsfsf">Esqueceu sua senha</a></div>
       <button className='Button1'>Continuar</button>
       </form>
     </div>

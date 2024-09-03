@@ -1,75 +1,89 @@
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+    padding: 0;
+    margin: 0;
 }
-html,
-body {
+
+html, body {
     background-color: #962F2F;
-    min-height: 100%
+    min-height: 100%;
+    overflow: hidden; 
 }
 
-
-
-.titulo{
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+.titulo {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
     font-size: 30px;
-    font-family: Helvetica;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
-.descricao{
-    font-family: Helvetica;
+.descricao {
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 15px;
     color: #C65A37;
-
 }
 
-
-.Button1{
+.Button1 {
     border-radius: 10px;
-    width: 10vw;
-    height: 2vw;
-    margin-top: 1vw;  
+    width: 100px;
+    height: 40px;
+    margin-top: 10px; 
     outline: none;
     background-color: aliceblue;
     border: solid #ECC096 2px;
 }
 
-#root{
+#root {
     background-color: #962F2F;
 }
 
 .Conteiner {
-    margin-top: 1vw;
+    margin-top: 20px;
     background-color: white;
-    width: 30vw;
-    height: 40vw !important;
-    border-radius: 3vh;
-    margin-left: 35vw;
-    padding: 5vh;
-    text-align: center; 
+    width: 300px; 
+    height: 400px;
+    border-radius: 20px; 
+    margin-left: calc(50% - 150px); 
+    padding: 20px;
+    text-align: center;
+    position: relative; 
 }
 
 .alinhamento1 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 100%; 
+    width: 100%;
 }
 
 .seta {
-    margin-right: 8px; 
+    margin-right: 8px;
 }
 
-.voltar, .titulo, .descricao, .input1, .input2, .input3, .input6, .recall-forget, .Button1, .signup-link {
-    width: 100%; 
-    text-align: left; 
-    margin: 0; 
-    margin-top: 2px !important;
-    padding-left: 0; 
+.voltar{
+    font-size:  1.1vw;
+    color: #962F2F !important;
+    text-decoration: none;
+
 }
+
+.voltar, .titulo, .descricao, .input1, .input2, .input3, .input6, .input7, .recall-forget, .Button1, .signup-link {
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    margin-top: 5px; 
+    padding-left: 0;
+}
+
+
 
 input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
-    width: 100%; 
-    box-sizing: border-box; 
+    width: 100%;
+    box-sizing: border-box;
+    height: 2vw;
+    border-color: #ECC096;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid #ECC096; 
+    box-shadow: none; 
+    
 }

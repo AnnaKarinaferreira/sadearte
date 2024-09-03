@@ -25,13 +25,14 @@ const Cadastro = () => {
         <div className='alinhamento1'>
         <img src={voltar} alt="" className='seta'/>
         
-        <p className='voltar'><Link to='/Home'>voltar</Link> </p>
+        <a href="/HomeI" className='voltar'>voltar</a>
         </div>
         <h1 className='titulo'>Seja bem-vindo ao Brighid!</h1>
-        <h1 className='descricao'>Cadastre-se para se juntar à nossa comunidade de artistas!</h1>        <div className='input2'>Seu email <br /><input type="email" placeholder='Email'/></div>
-        <div className='input3'>Seu Número <br /><input className='input4' type="number" placeholder='(DDD)'/> <input className='input5' type="number" placeholder='+xx xxxxx-xxxx' /></div>
-        <div className='input6'>a <br /><input type="password" placeholder='Senha'/>
-        <input type="password" placeholder='Confirme sua senha'/></div>
+        <h1 className='descricao'>Cadastre-se para se juntar à nossa comunidade de artistas!</h1>
+        <div className='input2'>Seu email <br /><input type="email" placeholder='Email'/></div>
+        <div className='input3'>Seu Número <br /><input className='input4' type="number" placeholder='(DDD)'/> <input className='input5' type="number" placeholder='+ xx xxxxx-xxxx' /></div>
+        <div className='input6'>Crie sua senha <br /><input type="password" placeholder='Senha'/>
+        <div className='input7'><input type="password" placeholder='Confirme sua senha'/></div></div>
         <div className='recall-forget'>
             <label htmlFor="">
                 <input type="checkbox"/>
@@ -42,7 +43,8 @@ const Cadastro = () => {
         <button className='Button1'>Continuar</button>
 
         <div className="signup-link">
-            <p>Já possuí uma conta? <Link to='/Login'>Login</Link> </p>
+          <a href="Login">Já possuí uma conta? </a>
+            
         </div>
       </form>
     </div>
