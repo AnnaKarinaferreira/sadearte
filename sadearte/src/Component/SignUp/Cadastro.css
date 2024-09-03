@@ -8,51 +8,22 @@ body {
     min-height: 100%
 }
 
-.Conteiner{
-    margin-top: 3vw;
-    background-color: white;
-    width: 30vw;
-    height: 30vw;
-    border-radius: 3vh;
-    margin-left: 35vw;
-    padding: 5vh;
-    text-align: center;
-}
+
 
 .titulo{
     margin-top: 3vh;
     margin-bottom: 3vh;
+    font-size: 30px;
+    font-family: Helvetica;
 }
 
-.input1{
-    margin-bottom: 1vw;
-}
-
-.input2{
-    margin-bottom: 1vw;
-}
-
-.input3{
-    margin-bottom: 1vw;
+.descricao{
+    font-family: Helvetica;
+    font-size: 15px;
+    color: #C65A37;
 
 }
 
-.input4{
-    margin-bottom: 1vw;
-    width: 5vw;
-
-}
-
-.input5{
-    margin-bottom: 1vw;
-   
-}
-    
-.input6{
-
-    margin-bottom: 1vw;
-   
-}
 
 .Button1{
     border-radius: 10px;
@@ -66,4 +37,39 @@ body {
 
 #root{
     background-color: #962F2F;
+}
+
+.Conteiner {
+    margin-top: 1vw;
+    background-color: white;
+    width: 30vw;
+    height: 40vw !important;
+    border-radius: 3vh;
+    margin-left: 35vw;
+    padding: 5vh;
+    text-align: center; 
+}
+
+.alinhamento1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%; 
+}
+
+.seta {
+    margin-right: 8px; 
+}
+
+.voltar, .titulo, .descricao, .input1, .input2, .input3, .input6, .recall-forget, .Button1, .signup-link {
+    width: 100%; 
+    text-align: left; 
+    margin: 0; 
+    margin-top: 2px !important;
+    padding-left: 0; 
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
+    width: 100%; 
+    box-sizing: border-box; 
 }

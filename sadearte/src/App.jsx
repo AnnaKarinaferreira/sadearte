@@ -2,7 +2,7 @@ import * as React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 import Cadastro from './Component/SignUp/Cadastro';
-import Login from './Component/SignIn/Login'
+import Login from './Component/SignIn/Login';
 import './App.css';
 
 function App() {
@@ -14,9 +14,9 @@ return (
         <Route path="/" element={<Cadastro />} />
         <Route path="/Login" element={<Login />} />
       </Routes>
-      </Router>
+    </Router>
   </>
 )
 }
 
-export default App
+export default App;
