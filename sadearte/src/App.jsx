@@ -13,7 +13,6 @@ return (
       <Routes>
         <Route path="/" element={<Cadastro />} />
         <Route path="Login" element={<Login />} />
-        <Route path="HomeI" element ={<Home/>}>
       </Routes>
     </Router>
   </>
