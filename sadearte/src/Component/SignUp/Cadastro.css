@@ -5,7 +5,8 @@
 
 html, body {
     background-color: #962F2F;
-    min-height: 100%;
+    width: 100vw;
+    height: 100vh;
     overflow: hidden; 
 }
 
@@ -24,25 +25,21 @@ html, body {
     color: #C65A37;
 }
 
-.Button1 {
-    border-radius: 10px;
-    width: 100px;
-    height: 40px;
-    margin-top: 10px; 
-    outline: none;
-    background-color: aliceblue;
-    border: solid #ECC096 2px;
-}
-
-#root {
-    background-color: #962F2F;
+.formCadastro .Button1 {
+    width: 249px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 36px;
+    background: #962F2F;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
 }
 
 .Conteiner {
     margin-top: 20px;
     background-color: #F3F0ED;
-    width: 430px; 
-    height: 500px;
+    width: min-content; 
     border-radius: 20px; 
     margin-left: calc(50% - 150px); 
     padding: 40px;
@@ -63,25 +60,42 @@ html, body {
 
 .voltar{
     font-size:  1.1vw;
-    color: #962F2F !important;
+    color: #962F2F;
     text-decoration: none;
 
 }
 
-.voltar, .titulo, .descricao, .input1, .input2, .input3, .input6, .recall-forget, .Button1, .signup-link {
-    width: 100%;
+.voltar, .titulo, .descricao, .input1, .input2, .input3, .input6, .recall-forget, .Button1 {
     text-align: left;
     margin: 0;
     margin-top: 5px; 
     padding-left: 0;
 }
 
+.signup-link{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 12px;
+}
 
+.signup-link p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+}
 
-input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
+.signup-link a:visited, .signup-link a:link{
+    font-size: 20px;
+    font-weight: 400;
+    color: #C65A37;
+}
+
+input[type="text"], input[type="email"], input[type="number"], input[type="password"] {
     width: 100%;
     box-sizing: border-box;
-    height: 2vw;
+    height: 40px;
     border-color: #ECC096;
     border-radius: 8px;
     outline: none;
@@ -90,11 +104,14 @@ input[type="text"], input[type="email"], input[type="password"], input[type="num
     background-color: transparent;
 }
 
-input[type="password"]{
-    width: 185px !important;
+.senhaCadastro{
     display: flex;
+    flex-direction: row;
+    gap: 25px;
 }
 
-.senhaCadastro{
-    float: inline-start;
+.senhaCadastro div{
+    text-align: start;
+    width: 240px;
+    
 }

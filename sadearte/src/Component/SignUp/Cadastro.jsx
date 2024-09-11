@@ -20,8 +20,9 @@ const Cadastro = () => {
 
 
   return (
+    <>
     <div className='Conteiner'>
-      <form onSubmit={handleSubmit}>
+      <form className="formCadastro" onSubmit={handleSubmit}>
         <div className='alinhamento1'>
         <img src={voltar} alt="" className='seta'/>
         
@@ -33,8 +34,14 @@ const Cadastro = () => {
         <div className='input2'>Nome de usuário <br /><input type="email"/></div>
         <div className='input3'>Número de telefone <br /><input className='input5' type="number"/></div>
         <div className='senhaCadastro'>
-          <div className='input6'>Senha <br /><input type="password"/>
-          <div className='input7'>Confirmar senha <br/> <input type="password"/></div></div>
+          <div>
+            <label htmlFor="confsenha">Senha</label>
+            <input type="password" name="senha" id="senha" />
+          </div>
+          <div>
+            <label htmlFor="confsenha">Confirmar senha</label>
+            <input type="password" name="senha" id="confsenha" />
+          </div>
         </div>
         <div className='recall-forget'>
             <label htmlFor="">
@@ -46,11 +53,12 @@ const Cadastro = () => {
         <button className='Button1'>Continuar</button>
 
         <div className="signup-link">
-          <a href="Login">Já possuí uma conta? </a>
+          <p>Já possúi uma conta?</p> <Link to="login">Faça login aqui</Link>
             
         </div>
       </form>
     </div>
+    </>
   )
 }
 
