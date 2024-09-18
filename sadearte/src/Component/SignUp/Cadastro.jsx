@@ -25,7 +25,6 @@ const Cadastro = () => {
       <form className="formCadastro" onSubmit={handleSubmit}>
         <div className='alinhamento1'>
         <img src={voltar} alt="" className='seta'/>
-        
         <a href="/HomeI" className='voltar'>voltar</a>
         </div>
         <h1 className='titulo'>Seja bem-vindo ao Brighid!</h1>
