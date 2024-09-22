@@ -2,34 +2,68 @@ body, html{
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: #f3f0ed;
+    background-color: #f3f0ed !important;
 }
 
 .header-home-n{
     width: 100%;
     display: grid;
+    position: fixed;
+    top: 0;
     grid-template-columns: 1fr 3fr 3fr 3fr;
     grid-template-rows: 1fr;
     background-color: #f3f0ed;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     padding-top: 3px;
+    grid-template-rows: 1fr max-content
 }
 
 .header-home-n > img{
     margin: auto;
+    height: 80px;
+}
+
+.pesquisa{
+    width: 100% !important;
+    border-radius: 50px;
+    height: 35px;
+}
+
+.btnETD{
+    border: none;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.btnlogin{
+    border-color: #C65A37;
+    background-color: transparent;
+    color: #C65A37;
+    font-weight: 600;
+    width: 130px;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+.btncadastro{
+    border: none;
+    background-color: #C65A37;
+    margin-left: 20px;
+    font-weight: 600;
+    width: 130px;
+    height: 35px;
+    border-radius: 10px;
+    color: white;
 }
 
 .eventos{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: left;
-    align-items: center;
     gap: 20px;
     background-color: #f3f0ed;
     margin-left: 28px;
-    margin-top: 20px;
 }
 
 .eventos div{
@@ -46,3 +80,24 @@ body, html{
     justify-content: end;
     font-weight: 600;
 }
+
+.titulo{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.desenhosHome{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+
+}
+
+.desenho{
+    width: 300px;
+    height: 300px;
+    background-color: #C65A37;
+}
+
+
