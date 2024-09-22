@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    background-color: #962F2F;
+    width: 100vw;
+    height: 100vh;
+}
+
+.titulo {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    font-size: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.descricao {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 15px !important;
+    color: #C65A37;
+}
+
+.formCadastro .Button1 {
+    width: 249px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 36px;
+    background: #962F2F;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.Conteiner {
+    margin-top: 20px;
+    background-color: #F3F0ED;
+    width: min-content; 
+    border-radius: 20px; 
+    margin-left: calc(50% - 150px); 
+    padding: 40px;
+    text-align: center;
+    position: relative; 
+}
+
+.alinhamento1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.seta {
+    margin-right: 8px;
+}
+
+.voltar{
+    font-size:  1.1vw;
+    color: #962F2F;
+    text-decoration: none;
+
+}
+
+.voltar, .titulo, .descricao, .input1, .input2, .input3, .input6, .recall-forget, .Button1 {
+    text-align: left;
+    margin: 0;
+    margin-top: 5px; 
+    padding-left: 0;
+}
+
+.signup-link{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.signup-link p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+}
+
+.signup-link a:visited, .signup-link a:link{
+    font-size: 20px;
+    font-weight: 400;
+    color: #C65A37;
+}
+
+input[type="text"], input[type="email"], input[type="number"], input[type="password"] {
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    border-color: #ECC096;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid #ECC096; 
+    box-shadow: none; 
+    background-color: transparent;
+}
+
+.senhaCadastro{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.senhaCadastro div{
+    text-align: start;
+    width: 240px;
+    
+}
