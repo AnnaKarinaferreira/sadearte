@@ -62,9 +62,9 @@ input[type="checkbox"]{
 
 .Button1{
     border-radius: 10px;
-    width: 10vw;
+    width: 150px;
     text-align: center;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     height: 2.5vw;
     margin-top: 6vh;  
     outline: none;

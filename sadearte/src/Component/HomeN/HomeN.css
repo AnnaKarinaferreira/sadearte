@@ -5,12 +5,16 @@ body, html{
     background-color: #f3f0ed !important;
 }
 
+#root{
+    width: 100%;
+}
+
 .header-home-n{
     width: 100%;
     display: grid;
     position: fixed;
     top: 0;
-    grid-template-columns: 1fr 3fr 3fr 3fr;
+    grid-template-columns: 1fr 1.5fr 3fr 3fr;
     grid-template-rows: 1fr;
     background-color: #f3f0ed;
     align-items: center;
@@ -24,10 +28,22 @@ body, html{
     height: 80px;
 }
 
+.unsBtn{
+    width: max-content;
+}
+
+
+@media (max-width: 1400px) {
+    .evento {
+        max-width: 300px !important;
+    }
+}
+
 .pesquisa{
     width: 100% !important;
     border-radius: 50px;
     height: 35px;
+    background-color: transparent;
 }
 
 .btnETD{
@@ -64,6 +80,7 @@ body, html{
     gap: 20px;
     background-color: #f3f0ed;
     margin-left: 28px;
+    margin-top: 40%;
 }
 
 .eventos div{
@@ -82,22 +99,27 @@ body, html{
 }
 
 .titulo{
-    margin-left: 30px;
-    margin-top: 30px;
+    margin-left: 30px !important;
+    margin-top: 30px !important;
+    font-size: 25px;
 }
 
 .desenhosHome{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 20px;
-    row-gap: 20px;
-
+    column-gap: 10px;
+    row-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-bottom: 30px;
 }
 
 .desenho{
     width: 300px;
     height: 300px;
     background-color: #C65A37;
+    border-radius: 10px;
 }
 
 

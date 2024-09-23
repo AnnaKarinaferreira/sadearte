@@ -8,7 +8,7 @@ const HomeN = () => {
     <>
       <div class='header-home-n'>
         <img src={logo} alt="logo" />
-        <div>
+        <div class='unsBtn'>
           <button  class='btnETD'>Explorar</button>
           <button  class='btnETD'>Trabalhos</button>
           <button  class='btnETD'>Desafios</button>
@@ -32,25 +32,19 @@ const HomeN = () => {
         <div class='evento'>
           <p>Evento de coisa tal</p>
         </div>
-        <div class='evento'>
-          <p>Evento de coisa tal</p>
-        </div>
-        <div class='evento'>
-          <p>Evento de coisa tal</p>
-        </div>
       </div>
 
       <h1 class='titulo'>Em alta</h1>
       
       <div class='desenhosHome'>
-        <div class='desenho'>a</div>
-        <div class='desenho'>s</div>
-        <div class='desenho'>d</div>
-        <div class='desenho'>g</div>
-        <div class='desenho'>q</div>
-        <div class='desenho'>r</div>
-        <div class='desenho'>w</div>
-        <div class='desenho'>o</div>
+        <div class='desenho'></div>
+        <div class='desenho'></div>
+        <div class='desenho'></div>
+        <div class='desenho'></div>
+        <div class='desenho'></div>
+        <div class='desenho'></div>
+        <div class='desenho'></div>
+        <div class='desenho'></div>
       </div>
 
 

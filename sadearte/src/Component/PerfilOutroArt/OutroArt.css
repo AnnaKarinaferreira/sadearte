@@ -1,0 +1,27 @@
+
+.infos{
+    border-color: black !important;
+    border-width: 20px;
+    height: 70vh;
+    width: 28vw;
+    margin-left: 40px;
+    margin-top: 70px;
+    padding: 22px;
+    display:flex;
+    
+}
+
+.userimg{
+    height: 100px;
+}
+
+.centro{
+    align-items: center;
+}
+
+.retangulo{
+    background-color: blue;
+    width: 20vw;
+    height: 20vh;
+    
+}

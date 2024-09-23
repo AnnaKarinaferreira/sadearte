@@ -30,8 +30,8 @@ const handleSubmit=(event) => {
         </div>
             <h1 className='titulo'>Bom te ver de volta!</h1>
             <h1 className='descricao'>Faça login para voltar à nossa comunidade de artistas!</h1>
-            <div className='input1'>Seu email <br /><input type="email" placeholder='Email'/></div>
-            <div className='input2'>Senha <br /><input type="string" placeholder='Digite sua senha'/></div>
+            <div className='input1'>Seu email <br /><input type="email" /></div>
+            <div className='input2'>Senha <br /><input type="string" /></div>
             <div className='recall-forget'>
             <label htmlFor="">
                 <input type="checkbox"/>
@@ -40,7 +40,7 @@ const handleSubmit=(event) => {
         </div>
 
             <div className='forget-link'>Esqueceu sua senha?<a href="dsfsf">Clique aqui</a></div>
-            <button className='Button1'> <Link to="HomeN">Faça login aqui</Link></button>
+            <button className='Button1'> <a href='/HomeN'>Faça login aqui</a></button>
           </form>
         </div>
       </div>
