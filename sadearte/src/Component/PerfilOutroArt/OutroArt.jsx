@@ -9,8 +9,8 @@ import user from '../../assets/user.png'
 const OutroArt = () => {
     return (
       <>
-        <div class='barraLogado'>
-        <img src={logo} alt="logo" />
+        <div class='header-home-n'>
+            <img src={logo} alt="logo" />
         <div class='unsBtn'>
           <button  class='btnETD'>Explorar</button>
           <button  class='btnETD'>Trabalhos</button>
@@ -20,8 +20,8 @@ const OutroArt = () => {
           <input class='pesquisa' type="search" name="" id="" />
         </div>
         <div>
-          <button class='not'><a href="/LogIn"><img src={not} /></a></button>
-          <button class='btnPerfil' ><a href="#"><img class='imgPerfil' src={user} /></a></button>
+          <button class='btnlogin'><a href="/LogIn">Fazer Login</a></button>
+          <button class='btncadastro'><a href="/Cadastro">Cadastrar-se</a></button>
         </div>
       </div>
        <div class='tudo'>

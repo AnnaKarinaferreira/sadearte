@@ -38,7 +38,7 @@ const HomeN = () => {
       
       <div class='desenhosHome'>
         <div class='desenho'></div>
-        <div class='desenho'></div>
+        <a href="/OutroArt"><div class='desenho'></div></a>
         <div class='desenho'></div>
         <div class='desenho'></div>
         <div class='desenho'></div>
