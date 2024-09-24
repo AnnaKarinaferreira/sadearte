@@ -23,20 +23,34 @@ const OutroArt = () => {
                 <button class='btncadastro'>Cadastrar-se</button>
             </div>
         </div>
-        <div class='infos'>
-           <div class='centro'>
-                <img class='userimg' src={user} alt='user'/>
-                <h2>Nome do artista</h2>
-                <p>user</p>
-           </div>
-            <div class='maisinfos'>
-                <p>seguidores: xxxx</p>
-                <p>seguindo: xxx</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non iaculis eros. Proin...</p>
-                <p>mostrar mais</p>
+       <div class='tudo'>
+            <div class='infos'>
+                <div class='centro'>
+                    <img class='userimg' src={user} alt='user'/>
+                    <h2>Nome do artista</h2>
+                    <p>user</p>
+                </div>
+                <div class='maisinfos'>
+                    <p>seguidores: xxxx</p>
+                    <p>seguindo: xxx</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non iaculis eros. Proin...</p>
+                    <p>mostrar mais</p>
+                </div>
             </div>
-        </div>
-        <div class='retangulo'>aa</div>
+            <div class='cima'>
+                <div class='retangulo'></div>
+                <div class='menuC'>
+                    <p class='categorias'>Categoria</p>
+                    <p class='categorias'>Categoria</p>
+                    <p class='categorias'>Competições</p>
+                </div>
+                <div class='desenhosOutroArt'>
+                    <div class='outrodesenho'></div>
+                    <div class='outrodesenho'></div>
+                    <div class='outrodesenho'></div>
+                </div>
+            </div>
+       </div>
     
     
     
