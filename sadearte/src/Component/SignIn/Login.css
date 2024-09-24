@@ -48,6 +48,8 @@ input[type="email"], input[type="string"]{
 
 }
 
+
+
 input[type="checkbox"]{
     margin-right: 0.5rem;
     margin-bottom: 1.5rem;
@@ -63,9 +65,9 @@ input[type="checkbox"]{
 .Button1{
     border-radius: 10px;
     width: 150px;
+    height: 2.5vw;
     text-align: center;
     color: rgb(255, 255, 255);
-    height: 2.5vw;
     margin-top: 6vh;  
     outline: none;
     background-color: #962F2F;

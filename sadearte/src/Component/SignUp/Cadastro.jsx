@@ -25,7 +25,7 @@ const Cadastro = () => {
       <form className="formCadastro" onSubmit={handleSubmit}>
         <div className='alinhamento1'>
         <img src={voltar} alt="" className='seta'/>
-        <a href="/HomeI" className='voltar'>voltar</a>
+        <a href="/" className='voltar'>voltar</a>
         </div>
         <h1 className='titulo'>Seja bem-vindo ao Brighid!</h1>
         <h1 className='descricao'>Cadastre-se para se juntar à nossa comunidade de artistas!</h1>
@@ -47,14 +47,14 @@ const Cadastro = () => {
                 <input type="checkbox"/>
                 Lembre de mim
             </label> <br />
+            <button className='Button1'>Continuar</button>
+
+<div className="signup-link">
+  <p>Já possúi uma conta?</p> <a href="/Login">Faça login aqui</a>
+    
+</div>
         </div>
 
-        <button className='Button1'>Continuar</button>
-
-        <div className="signup-link">
-          <p>Já possúi uma conta?</p> <Link to="login">Faça login aqui</Link>
-            
-        </div>
       </form>
     </div>
     </>

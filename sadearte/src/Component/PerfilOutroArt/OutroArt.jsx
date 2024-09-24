@@ -1,6 +1,7 @@
 import React from 'react'
 import './OutroArt.css'
 import '../HomeN/HomeN.css'
+import '../barraL.css'
 import logo from '../../assets/logo 1.png'
 import user from '../../assets/user.png'
 
@@ -8,21 +9,21 @@ import user from '../../assets/user.png'
 const OutroArt = () => {
     return (
       <>
-        <div class='header-home-n'>
-            <img src={logo} alt="logo" />
-            <div class='unsBtn'>
-                <button  class='btnETD'>Explorar</button>
-                <button  class='btnETD'>Trabalhos</button>
-                <button  class='btnETD'>Desafios</button>
-            </div>
-            <div>
-                <input class='pesquisa' type="search" name="" id="" />
-            </div>
-            <div>
-                <button class='btnlogin'>Fazer Login</button>
-                <button class='btncadastro'>Cadastrar-se</button>
-            </div>
+        <div class='barraLogado'>
+        <img src={logo} alt="logo" />
+        <div class='unsBtn'>
+          <button  class='btnETD'>Explorar</button>
+          <button  class='btnETD'>Trabalhos</button>
+          <button  class='btnETD'>Desafios</button>
         </div>
+        <div>
+          <input class='pesquisa' type="search" name="" id="" />
+        </div>
+        <div>
+          <button class='not'><a href="/LogIn"><img src={not} /></a></button>
+          <button class='btnPerfil' ><a href="#"><img class='imgPerfil' src={user} /></a></button>
+        </div>
+      </div>
        <div class='tudo'>
             <div class='infos'>
                 <div class='centro'>

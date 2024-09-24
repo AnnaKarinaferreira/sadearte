@@ -26,7 +26,7 @@ const handleSubmit=(event) => {
           <form onSubmit={handleSubmit}>
           <div className='alinhamento1'>
         <img src={voltar} alt="" className='seta'/>
-        <a href="/HomeI" className='voltar'>voltar</a>
+        <a href="/" className='voltar'>voltar</a>
         </div>
             <h1 className='titulo'>Bom te ver de volta!</h1>
             <h1 className='descricao'>Faça login para voltar à nossa comunidade de artistas!</h1>
@@ -40,7 +40,7 @@ const handleSubmit=(event) => {
         </div>
 
             <div className='forget-link'>Esqueceu sua senha?<a href="dsfsf">Clique aqui</a></div>
-            <button className='Button1'> <a href='/HomeN'>Faça login aqui</a></button>
+            <button className='Button1'> <a href='/'>Faça login aqui</a></button>
           </form>
         </div>
       </div>
