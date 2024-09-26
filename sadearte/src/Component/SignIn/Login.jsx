@@ -40,7 +40,7 @@ const handleSubmit=(event) => {
         </div>
 
             <div className='forget-link'>Esqueceu sua senha?<a href="dsfsf">Clique aqui</a></div>
-            <button className='Button1'> <a href='/'>Faça login aqui</a></button>
+            <button className='Button1'> <a href='/Cadastro'>Faça cadastro aqui</a></button>
           </form>
         </div>
       </div>

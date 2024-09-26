@@ -37,9 +37,12 @@ const HomeN = () => {
       <h1 class='titulo'>Em alta</h1>
       
       <div class='desenhosHome'>
-        <div class='desenho'></div>
+        <div class='desenho'>
+          <h1 className='aviso' >Aviso conteúdo sensível</h1>
+          <button className='vizualizar'>Vizualizar</button>
+        </div>
         <a href="/OutroArt"><div class='desenho'></div></a>
-        <div class='desenho'></div>
+        <div class='desenho'><h1></h1></div>
         <div class='desenho'></div>
         <div class='desenho'></div>
         <div class='desenho'></div>

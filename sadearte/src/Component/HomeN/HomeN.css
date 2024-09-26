@@ -9,6 +9,24 @@ body, html{
     width: 100%;
 }
 
+.aviso{
+    text-align: center;
+    margin-top: 30vh;
+    font-size: 20px;
+    color: #f3f0ed;
+}
+
+.vizualizar{
+    margin-left: 6vw;
+    margin-top: 5vh;
+    background-color: transparent;
+    width: 20vh;
+    height: 5vh;
+    border-color: #f3f0ed;
+    border-radius: 3vh;
+    color: #f3f0ed;
+}
+
 .header-home-n{
     width: 100%;
     display: grid;
