@@ -1,5 +1,6 @@
 import React from 'react'
 import '../HomeN/HomeN.css'
+import '../Desafios/Desafios.jsx'
 import { Link } from 'react-router-dom'
 import logo from '../../assets/logo 1.png'
 import '../barraL.css'

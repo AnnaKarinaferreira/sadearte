@@ -23,7 +23,7 @@ const handleSubmit=(event) => {
     <>
       <div className="loginPage">
         <div className='Conteiner'>
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} >
           <div className='alinhamento1'>
         <img src={voltar} alt="" className='seta'/>
         <a href="/" className='voltar'>voltar</a>

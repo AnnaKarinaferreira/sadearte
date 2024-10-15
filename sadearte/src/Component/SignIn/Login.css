@@ -10,15 +10,15 @@ body {
     padding: 0;
     display: flex;
     align-items: center;
-    background-color: #962F2F !important;
 }
 
 
 .Conteiner{
     margin-top: 3vw;
-    background-color: white;
+    background-color: white !important;
     width: 65vh;
-    height: 80vh;
+    height: 40vh;
+    margin-bottom: 2rem;
     border-radius: 3vh;
     margin-left: 32vw;
     padding: 5vh;
@@ -55,6 +55,10 @@ input[type="checkbox"]{
     margin-bottom: 1.5rem;
 }
 
+.form{
+    background-color: aliceblue !important;
+}
+
 .recall-forget{
     color: #000000;
     padding-left: 0.5rem;
@@ -64,7 +68,8 @@ input[type="checkbox"]{
 
 .Button1{
     border-radius: 10px;
-    width: 150px;
+    width: 130px;
+    margin-top: 20px;
     height: 2.5vw;
     text-align: center;
     color: rgb(255, 255, 255); 

@@ -140,4 +140,17 @@ body, html{
     border-radius: 10px;
 }
 
+.desafios a {
+    text-decoration: none;
+    color: black;
+}
 
+.login a{
+    text-decoration: none;
+    color: #C65A37;
+}
+
+.cadastro a{
+    text-decoration: none;
+    color: #f3f0ed;
+}
