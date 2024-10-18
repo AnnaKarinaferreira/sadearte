@@ -6,7 +6,7 @@ import Login from './Component/SignIn/Login.jsx';
 import HomeN from './Component/HomeN/HomeN.jsx'
 import OutroArt from './Component/PerfilOutroArt/outroArt.jsx';
 import HomeL from './Component/HomeL/HomeL.jsx'
-import Desafios from './Component/Desafios/Desafios.jsx'
+import Desafios from './Component/Desafios/Desafios.jsx';
 import './App.css';
 
 function App() {
@@ -20,7 +20,7 @@ return (
         <Route path="Cadastro" element={<Cadastro />} />
         <Route path="OutroArt" element={<OutroArt/>} />
         <Route path='HomeL' element={<HomeL/>} />
-        <Route path='Desafios' element={<Desafios/>}/>
+        <Route path='Desafios' element={<Desafios/>} />
       </Routes>
     </Router>
   </>
