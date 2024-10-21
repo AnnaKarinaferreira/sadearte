@@ -2,6 +2,7 @@ import React from 'react'
 import './HomeN.css'
 import { Link } from 'react-router-dom'
 import logo from '../../assets/logo 1.png'
+import seta from '../HomeN/seta.svg'
 
 const HomeN = () => {
   return (
@@ -34,7 +35,8 @@ const HomeN = () => {
         </div>
       </div>
 
-      <h1 class='titulo'>Em alta</h1>
+      <h1 class='titulo'>Em alta  <img src={seta} alt="" className='seta' /> </h1>
+     
       
       <div class='desenhosHome'>
         <div class='desenho'>
@@ -42,12 +44,12 @@ const HomeN = () => {
           <button className='vizualizar'>Vizualizar</button>
         </div>
         <a href="/OutroArt"><div class='desenho'></div></a>
-        <div class='desenho'><h1></h1></div>
-        <div class='desenho'></div>
-        <div class='desenho'></div>
-        <div class='desenho'></div>
-        <div class='desenho'></div>
-        <div class='desenho'></div>
+        <div class='desenho1'><h1></h1></div>
+        <div class='desenho2'></div>
+        <div class='desenho3'></div>
+        <div class='desenho4'></div>
+        <div class='desenho5'></div>
+        <div class='desenho6'></div>
       </div>
 
 
