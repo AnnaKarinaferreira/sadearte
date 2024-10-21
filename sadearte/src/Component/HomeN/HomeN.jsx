@@ -1,6 +1,7 @@
 import React from 'react'
 import './HomeN.css'
 import { Link } from 'react-router-dom'
+import Desafios from '../Desafios/Desafios.jsx'
 import logo from '../../assets/logo 1.png'
 import seta from '../HomeN/seta.svg'
 

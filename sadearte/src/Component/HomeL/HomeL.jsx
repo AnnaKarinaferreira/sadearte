@@ -6,6 +6,7 @@ import logo from '../../assets/logo 1.png'
 import '../barraL.css'
 import not from '../../assets/not.png'
 import user from '../../assets/user.png'
+import Meuperfil from '../MeuPerfil/Meuperfil.jsx'
 
 const HomeN = () => {
   return (
@@ -22,7 +23,7 @@ const HomeN = () => {
         </div>
         <div>
           <button class='not'><a href="/LogIn"><img src={not} /></a></button>
-          <button class='btnPerfil' ><a href="#"><img class='imgPerfil' src={user} /></a></button>
+          <button class='btnPerfil' ><a href="/MeuPerfil"><img class='imgPerfil' src={user} /></a></button>
         </div>
       </div>
 
