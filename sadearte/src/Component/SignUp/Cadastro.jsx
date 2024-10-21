@@ -55,7 +55,11 @@ const Cadastro = () => {
                 <input type="checkbox"/>
                 Lembre de mim
             </label> <br />
+<<<<<<< HEAD
             <button className='Button1'><p className='linkhomel'><a href="/HomeL">Continuar</a></p></button>
+=======
+            <button className='BTNcontinuarCadastro'><a href="/HomeL">Continuar</a></button>
+>>>>>>> 208ac16645b56fe8c66582021f9986b621d2932c
 
 <div className="signup-link">
   <p>Já possúi uma conta?</p> <a href="/Login">Faça login aqui</a>
