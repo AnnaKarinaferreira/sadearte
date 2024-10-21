@@ -9,6 +9,12 @@ html, body {
     height: 100vh;
 }
 
+.linkhomel a{
+    text-decoration: none;
+    color: #F3F0ED;
+    font-size: 20px;
+}
+
 .titulo {
     margin-top: 17px !important; 
     margin-bottom: 10px !important; 

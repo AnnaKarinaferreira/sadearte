@@ -1,8 +1,7 @@
 import React from 'react'
 import './HomeN.css'
 import { Link } from 'react-router-dom'
-import Desafios from '../Desafios/Desafios.jsx'
-import logo from '../../assets/logo 1.png'
+import logo from './logo 1.png'
 import seta from '../HomeN/seta.svg'
 
 const HomeN = () => {
@@ -13,7 +12,7 @@ const HomeN = () => {
         <div class='unsBtn'>
           <button  class='btnETD'>Explorar</button>
           <button  class='btnETD'>Trabalhos</button>
-          <button  class='btnETD'><p className='desafios'><a href="/Desafios">Desafios</a></p></button>
+          <button  class='btnETD'><p className='desafios'><a href="#">Desafios</a></p></button>
         </div>
         <div>
           <input class='pesquisa' type="search" name="" id="" />

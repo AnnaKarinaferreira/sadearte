@@ -1,0 +1,75 @@
+
+.not{
+    border-style: none;
+    margin-left: 30px;
+}
+
+.imgPerfil{
+    height: 30px;
+}
+
+.btnPerfil{
+    border-style: none;
+    margin-left: 30px;
+}
+
+.barraLogado{
+    width: 100%;
+    display: grid;
+    position: fixed;
+    top: 0;
+    grid-template-columns: 1fr 1.5fr 3fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #f3f0ed;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3px;
+    grid-template-rows: 1fr max-content
+}
+
+.barraLogado > img{
+    margin: auto;
+    height: 80px;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f3f0ed !important;
+}
+
+#root{
+    width: 100%;
+}
+
+.desafio1{
+    margin-top: 5rem;
+    margin-left: 3rem;
+    width: 750%;
+    height: 200px;
+    background-color: #C65A37;
+    border-radius: 10px;
+}
+.desafio2{
+    margin-top: 5rem;
+    margin-left: 3rem;
+    width: 750%;
+    height: 200px;
+    background-color: #ECC096;
+    border-radius: 10px;
+}
+
+.dtitulo{
+    padding-left: 1rem;
+    padding-top: 7rem;
+    font-size: 20px;
+}
+.dsubtitulo{
+    padding-left: 1rem;
+    font-size: 12px ;
+}
+
+
+
+

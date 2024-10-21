@@ -3,11 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 import Cadastro from './Component/SignUp/Cadastro.jsx';
 import Login from './Component/SignIn/Login.jsx';
-import HomeN from './Component/HomeN/HomeN.jsx'
+import HomeN from './Component/HomeN/HomeN.jsx';
 import OutroArt from './Component/PerfilOutroArt/outroArt.jsx';
-import HomeL from './Component/HomeL/HomeL.jsx'
+import HomeL from './Component/HomeL/HomeL.jsx';
 import Desafios from './Component/Desafios/Desafios.jsx';
-import MeuPerfil from './Component/MeuPerfil/Meuperfil.jsx';
 import './App.css';
 
 function App() {
@@ -22,7 +21,6 @@ return (
         <Route path="OutroArt" element={<OutroArt/>} />
         <Route path='HomeL' element={<HomeL/>} />
         <Route path='Desafios' element={<Desafios/>} />
-        <Route path='MeuPerfil' element={<MeuPerfil/>}/>
       </Routes>
     </Router>
   </>

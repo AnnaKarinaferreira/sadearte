@@ -1,12 +1,11 @@
-import React from 'react'
-import '../HomeN/HomeN.css'
-import '../Desafios/Desafios.jsx'
-import { Link } from 'react-router-dom'
-import logo from '../../assets/logo 1.png'
-import '../barraL.css'
-import not from '../../assets/not.png'
-import user from '../../assets/user.png'
-import Meuperfil from '../MeuPerfil/Meuperfil.jsx'
+import React from 'react';
+import '../HomeN/HomeN.css';
+import Desafios from '../Desafios/Desafios.jsx';
+import { Link } from 'react-router-dom';
+import logo from '../../assets/logo 1.png';
+import '../barraL.css';
+import not from '../../assets/not.png';
+import user from '../../assets/user.png';
 
 const HomeN = () => {
   return (
@@ -16,8 +15,7 @@ const HomeN = () => {
         <div class='unsBtn'>
           <button  class='btnETD'>Explorar</button>
           <button  class='btnETD'>Trabalhos</button>
-          <button  class='btnETD'>Desafios</button>
-        </div>
+          <button  class='btnETD'><p className='desafios'><a href="/Desafios">Desafios</a></p></button>        </div>
         <div>
           <input class='pesquisa' type="search" name="" id="" />
         </div>
@@ -42,14 +40,17 @@ const HomeN = () => {
       <h1 class='titulo'>Em alta</h1>
       
       <div class='desenhosHome'>
-        <div class='desenho'></div>
-        <div class='desenho'></div>
-        <div class='desenho'></div>
-        <div class='desenho'></div>
-        <div class='desenho'></div>
-        <div class='desenho'></div>
-        <div class='desenho'></div>
-        <div class='desenho'></div>
+        <div class='desenho'>
+          <h1 className='aviso' >Aviso conteúdo sensível</h1>
+          <button className='vizualizar'>Vizualizar</button>
+        </div>
+        <a href="/OutroArt"><div class='desenho'></div></a>
+        <div class='desenho1'><h1></h1></div>
+        <div class='desenho2'></div>
+        <div class='desenho3'></div>
+        <div class='desenho4'></div>
+        <div class='desenho5'></div>
+        <div class='desenho6'></div>
       </div>
 
 
