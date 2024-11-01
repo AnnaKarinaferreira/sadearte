@@ -51,7 +51,6 @@ const HomeN = () => {
         <a href="/OutroArt"><div class='desenho4'></div></a>       
         <a href="/OutroArt"><div class='desenho5'></div></a>
         <a href="/OutroArt"><div class='desenho6'></div></a>
-        <a href="/OutroArt"><div class='desenho7'></div></a>
 
 
       </div>
