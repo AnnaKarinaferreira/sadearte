@@ -12,7 +12,7 @@ const HomeN = () => {
         <div class='unsBtn'>
           <button  class='btnETD'>Explorar</button>
           <button  class='btnETD'>Trabalhos</button>
-          <button  class='btnETD'><p className='desafios'><a href="#">Desafios</a></p></button>
+          <button  class='btnETD'><p className='desafios'><a href="/Desafios">Desafios</a></p></button>
         </div>
         <div>
           <input class='pesquisa' type="search" name="" id="" />
