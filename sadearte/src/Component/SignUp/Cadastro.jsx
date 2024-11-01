@@ -58,7 +58,7 @@ const Cadastro = () => {
                      Lembre de mim
                   </label> <br />
                </div>
-               <button type="submit">Cadastrar</button>
+               <button className='BTNcontinuarLogin' type="submit">Cadastrar</button>
                {message && <p>{message}</p>}
             </form>
          </div>

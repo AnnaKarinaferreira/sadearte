@@ -32,16 +32,16 @@ html, body {
 }
 
 .Conteiner {
-    margin-top: 20px;
     margin-left: 4vh;
     background-color: #F3F0ED;
     width: 65vh;
-    height: 90vh !important;
+    height: fit-content;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     border-radius: 20px; 
     margin-left: calc(50% - 150px); 
-    padding: 40px;
     text-align: center;
-    
+    padding: 40px;
 }
 
 .alinhamento1 {

@@ -10,18 +10,17 @@ body {
     padding: 0;
     display: flex;
     align-items: center;
+    
 }
 
-
 .Conteiner{
-    margin-top: 3vw;
-    background-color: white !important;
-    width: 65vh;
-    height: 40vh;
-    margin-bottom: 2rem;
+    position: relative;
+    top: 20vh;
+    margin: auto;
+    background-color: white;
+    width: 500px;
+    height: fit-content;
     border-radius: 3vh;
-    margin-left: 32vw;
-    padding: 5vh;
     text-align: center;
 }
 
@@ -76,6 +75,7 @@ input[type="checkbox"]{
     background-color: #962F2F;
     border: none;
     font-size: 15px;
+    color: white;
 }
 
 .BTNcontinuarLogin a {
@@ -100,7 +100,10 @@ input[type="checkbox"]{
     color: #c65a37;
 }
 
-
-
-
+.loginPage{
+    background-color: #962F2F;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
 

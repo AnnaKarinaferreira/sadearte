@@ -17,7 +17,7 @@ const HomeN = () => {
         <div>
           <input class='pesquisa' type="search" name="" id="" />
         </div>
-        <div>
+        <div className='icones'>
           <button class='btnlogin'><p className='login' ><a href="/Login">Fazer Login</a></p></button>
           <button class='btncadastro'><p className='cadastro'><a href="/Cadastro">Cadastrar-se</a></p></button>
         </div>
@@ -25,13 +25,16 @@ const HomeN = () => {
 
       <div class='eventos'>
         <div class='evento'>
-          <p>Evento de coisa tal</p>
+          <p className='eventoname'>Evento Especial de natal</p>
         </div>
         <div class='evento'>
-          <p>Evento de coisa tal</p>
+          <p className='eventoname'>Evento de Páscoa</p>
         </div>
         <div class='evento'>
-          <p>Evento de coisa tal</p>
+          <p className='eventoname'> Evento Dia das bruxas</p>
+        </div>
+        <div class='evento'>
+          <p className='eventoname'>Evento dia das crianças</p>
         </div>
       </div>
 
@@ -43,13 +46,14 @@ const HomeN = () => {
           <h1 className='aviso' >Aviso conteúdo sensível</h1>
           <button className='vizualizar'>Vizualizar</button>
         </div>
-        <a href="/OutroArt"><div class='desenho'></div></a>
-        <div class='desenho1'><h1></h1></div>
-        <div class='desenho2'></div>
-        <div class='desenho3'></div>
-        <div class='desenho4'></div>
-        <div class='desenho5'></div>
-        <div class='desenho6'></div>
+        <a href="/OutroArt"><div class='desenho2'></div></a>
+        <a href="/OutroArt"><div class='desenho3'></div></a>
+        <a href="/OutroArt"><div class='desenho4'></div></a>       
+        <a href="/OutroArt"><div class='desenho5'></div></a>
+        <a href="/OutroArt"><div class='desenho6'></div></a>
+        <a href="/OutroArt"><div class='desenho7'></div></a>
+
+
       </div>
 
 

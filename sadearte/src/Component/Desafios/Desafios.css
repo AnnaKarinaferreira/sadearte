@@ -27,6 +27,10 @@
     grid-template-rows: 1fr max-content
 }
 
+.icones{
+    margin-left: 20rem;
+}
+
 .barraLogado > img{
     margin: auto;
     height: 80px;
@@ -39,11 +43,11 @@ body, html{
     background-color: #f3f0ed !important;
 }
 
-#root{
-    width: 100%;
+.removelink {
+    text-decoration: none; /* Remove a decoração do link */
 }
 
-.desafio1{
+.desafio1 {
     margin-top: 5rem;
     margin-left: 3rem;
     width: 750%;
@@ -51,7 +55,8 @@ body, html{
     background-color: #C65A37;
     border-radius: 10px;
 }
-.desafio2{
+
+.desafio2 {
     margin-top: 5rem;
     margin-left: 3rem;
     width: 750%;
@@ -60,15 +65,19 @@ body, html{
     border-radius: 10px;
 }
 
-.dtitulo{
+.dtitulo {
     padding-left: 1rem;
     padding-top: 7rem;
     font-size: 20px;
+    color: black;
 }
-.dsubtitulo{
+
+.dsubtitulo {
     padding-left: 1rem;
-    font-size: 12px ;
+    font-size: 12px;
+    color: black;
 }
+
 
 
 
