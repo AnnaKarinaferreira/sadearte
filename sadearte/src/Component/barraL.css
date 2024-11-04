@@ -13,6 +13,10 @@
     margin-left: 30px;
 }
 
+.trabalhos a{
+    text-decoration: none;
+    color: black;
+}
 .barraLogado{
     width: 100%;
     display: grid;

@@ -47,6 +47,10 @@ body, html{
     text-decoration: none; /* Remove a decoração do link */
 }
 
+.trabalhos a{
+    text-decoration: none;
+    color: black;
+}
 .desafio1 {
     margin-top: 5rem;
     margin-left: 3rem;

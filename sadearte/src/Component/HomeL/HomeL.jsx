@@ -1,6 +1,7 @@
 import React from 'react';
 import '../HomeN/HomeN.css';
 import Desafios from '../Desafios/Desafios.jsx';
+import Trabalhos from '../Trabalhos/Trabalhos.jsx';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/logo 1.png';
 import '../barraL.css';
@@ -14,7 +15,7 @@ const HomeN = () => {
         <img src={logo} alt="logo" />
         <div class='unsBtn'>
           <button  class='btnETD'>Explorar</button>
-          <button  class='btnETD'>Trabalhos</button>
+          <button  class='btnETD'><p className='trabalhos'><a href="/Trabalhos">Trabalhos</a></p></button>
           <button  class='btnETD'><p className='desafios'><a href="/Desafios">Desafios</a></p></button>        </div>
         <div>
           <input class='pesquisa' type="search" name="" id="" />

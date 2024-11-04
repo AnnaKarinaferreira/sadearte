@@ -137,37 +137,43 @@ body, html{
 .desenho {
     height: 300px; /* Altura fixa */
     background-color: #C65A37; /* Cor padrão; você pode definir cores específicas para cada um */
-    border-radius: 10px;
+    border-radius: 40px;
 }
 
 .desenho2 {
     height: 300px; /* Altura fixa */
     background-color: #F5853F;
+    border-radius: 40px;
 }
 
 .desenho3 {
     height: 300px; /* Altura fixa */
     background-color: #962F2F;
+    border-radius: 40px;
 }
 
 .desenho4 {
     height: 300px; /* Altura fixa */
     background-color: #C65A37;
+    border-radius: 40px;
 }
 
 .desenho5 {
     height: 300px; /* Altura fixa */
     background-color: #C65A37;
+    border-radius: 40px;
 }
 
 .desenho6 {
     height: 300px; /* Altura fixa */
     background-color: #ECC096;
+    border-radius: 40px;
 }
 
 .desenho7 {
     height: 300px; /* Altura fixa */
     background-color: #ECC096;
+    border-radius: 40px;
 }
 
 /* Define a posição dos desenhos no grid */
