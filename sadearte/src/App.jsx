@@ -7,7 +7,6 @@ import HomeN from './Component/HomeN/HomeN.jsx';
 import OutroArt from './Component/PerfilOutroArt/outroArt.jsx';
 import HomeL from './Component/HomeL/HomeL.jsx';
 import Desafios from './Component/Desafios/Desafios.jsx';
-import Trabalhos from './Component/Trabalhos/Trabalhos.jsx';
 import PerfilArtista from './Component/PerfilArtista/PerfilArtista.jsx';
 import './App.css';
 
