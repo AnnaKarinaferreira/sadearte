@@ -11,7 +11,7 @@ const HomeN = () => {
         <img src={logo} alt="logo" />
         <div class='unsBtn'>
           <button  class='btnETD'>Explorar</button>
-          <button  class='btnETD'>Trabalhos</button>
+          <button  class='btnETD'><p className='trabalhos'><a href="">Trabalhos</a></p></button>
           <button  class='btnETD'><p className='desafios'><a href="/Desafios">Desafios</a></p></button>
         </div>
         <div>
