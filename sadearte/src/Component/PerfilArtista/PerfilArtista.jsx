@@ -1,27 +1,27 @@
 import React from 'react'
-import './OutroArt.css'
+import './PerfilArtista.css'
+import '../PerfilOutroArt/OutroArt.css'
 import '../HomeN/HomeN.css'
 import '../barraL.css'
 import logo from '../../assets/logo 1.png'
 import user from '../../assets/user.png'
 
 
-const OutroArt = () => {
+const PerfilArtista = () => {
     return (
       <>
-        <div class='header-home-n'>
+        <div class='barraLogado'>
         <img src={logo} alt="logo" />
         <div class='unsBtn'>
           <button  class='btnETD'>Explorar</button>
-          <button  class='btnETD'>Trabalhos</button>
-          <button  class='btnETD'><p className='desafios'><a href="/Desafios">Desafios</a></p></button>
-        </div>
+          <button  class='btnETD'><p className='trabalhos'><a href="/Trabalhos">Trabalhos</a></p></button>
+          <button  class='btnETD'><p className='desafios'><a href="/Desafios">Desafios</a></p></button>        </div>
         <div>
           <input class='pesquisa' type="search" name="" id="" />
         </div>
-        <div className='icones'>
-          <button class='btnlogin'><p className='login' ><a href="/Login">Fazer Login</a></p></button>
-          <button class='btncadastro'><p className='cadastro'><a href="/Cadastro">Cadastrar-se</a></p></button>
+        <div>
+          <button class='not'><a href="/LogIn"><img src={not} /></a></button>
+          <button class='btnPerfil' ><a href="/OutroArt"><img class='imgPerfil' src={user} /></a></button>
         </div>
       </div>
        <div class='tudo'>
@@ -61,4 +61,4 @@ const OutroArt = () => {
     )
 }      
 
-export default OutroArt
+export default PerfilArtista

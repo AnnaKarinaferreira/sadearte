@@ -22,7 +22,7 @@ const HomeN = () => {
         </div>
         <div>
           <button class='not'><a href="/LogIn"><img src={not} /></a></button>
-          <button class='btnPerfil' ><a href="/MeuPerfil"><img class='imgPerfil' src={user} /></a></button>
+          <button class='btnPerfil' ><a href="/PerfilArtista"><img class='imgPerfil' src={user} /></a></button>
         </div>
       </div>
 

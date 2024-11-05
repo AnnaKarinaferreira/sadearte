@@ -1,0 +1,75 @@
+
+.tudo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.infos{
+    border-color: black !important;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    height: 70vh;
+    width: 28vw;
+    margin-left: 40px;
+    margin-top: 20vh;
+    padding: 22px;
+}
+
+.userimg{
+    height: 100px;
+}
+
+.centro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.retangulo{
+    background-color: #ECC096;
+    width: 60vw;
+    height: 20vh;
+    border-radius: 20px;
+}
+
+.cima{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+
+.menuC{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.categorias{
+    margin-right: 20px;
+}
+
+.desenhosOutroArt{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.outrodesenho{
+    width: 260px;
+    height: 260px;
+    background-color: #C65A37;
+    border-radius: 10px;
+}
+
+

@@ -8,6 +8,7 @@ import OutroArt from './Component/PerfilOutroArt/outroArt.jsx';
 import HomeL from './Component/HomeL/HomeL.jsx';
 import Desafios from './Component/Desafios/Desafios.jsx';
 import Trabalhos from './Component/Trabalhos/Trabalhos.jsx';
+import PerfilArtista from './Component/PerfilArtista/PerfilArtista.jsx';
 import './App.css';
 
 function App() {
@@ -23,6 +24,7 @@ return (
         <Route path='HomeL' element={<HomeL/>} />
         <Route path='Desafios' element={<Desafios/>} />
         <Route path='Trabalhos' element={<Desafios/>}/> 
+        <Route path='PerfilArtista' element={<PerfilArtista/>}/>
       </Routes>
     </Router>
   </>

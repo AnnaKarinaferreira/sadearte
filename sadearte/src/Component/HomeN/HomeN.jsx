@@ -1,5 +1,6 @@
 import React from 'react'
 import './HomeN.css'
+import '../barraL.css'
 import { Link } from 'react-router-dom'
 import logo from './logo 1.png'
 import seta from '../HomeN/seta.svg'
@@ -44,7 +45,7 @@ const HomeN = () => {
       <div class='desenhosHome'>
         <div class='desenho'>
           <h1 className='aviso' >Aviso conteúdo sensível</h1>
-          <button className='vizualizar'>Vizualizar</button>
+          <button className='vizualizar'><a href="/OutroArt">Vizualizar</a></button>
         </div>
         <a href="/OutroArt"><div class='desenho2'></div></a>
         <a href="/OutroArt"><div class='desenho3'></div></a>
