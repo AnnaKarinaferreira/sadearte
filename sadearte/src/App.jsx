@@ -23,7 +23,6 @@ return (
         <Route path="OutroArt" element={<OutroArt/>} />
         <Route path='HomeL' element={<HomeL/>} />
         <Route path='Desafios' element={<Desafios/>} />
-        <Route path='Trabalhos' element={<Desafios/>}/> 
         <Route path='PerfilArtista' element={<PerfilArtista/>}/>
       </Routes>
     </Router>
