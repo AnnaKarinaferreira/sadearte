@@ -17,6 +17,10 @@
     text-decoration: none;
     color: black;
 }
+.evento{
+    color: #f3f0ed;
+}
+
 .barraLogado{
     width: 100%;
     display: grid;
